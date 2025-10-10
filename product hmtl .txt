@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - UbaidXCGPT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Our Premium Notes & Books</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html" class="active">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="JKBOSE Class 10 Science Notes">
+      <h3>JKBOSE Class 10 Science Notes</h3>
+      <p>Complete, high-quality notes with diagrams and solved questions.</p>
+      <button class="buy">Buy Now ₹99</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="JKBOSE Class 10 Math Notes">
+      <h3>JKBOSE Class 10 Math Notes</h3>
+      <p>Chapter-wise detailed solutions and formulas in easy format.</p>
+      <button class="buy">Buy Now ₹99</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="JKBOSE Class 10 English Notes">
+      <h3>JKBOSE Class 10 English Notes</h3>
+      <p>Important questions, summaries, and character sketches.</p>
+      <button class="buy">Buy Now ₹99</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 UbaidXCGPT Empire | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
