@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - UbaidXCGPT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>About UbaidXCGPT</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="about">
+    <h2>Our Story</h2>
+    <p>UbaidXCGPT is a next-generation platform combining education and AI innovation. Founded by <strong>Ubaid Rashid</strong>, the mission is to empower students with affordable, high-quality digital study materials.</p>
+
+    <h3>Our Vision</h3>
+    <p>To make learning smart, accessible, and luxurious — like Amazon, but for education.</p>
+
+    <h3>Founder’s Message</h3>
+    <p>"I started this journey to make every student in Kashmir and beyond study smart and succeed easily." – Ubaid Rashid</p>
+  </section>
+
+  <footer>
+    <p>© 2025 UbaidXCGPT Empire | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
