@@ -1,25 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UbaidXCGPT Empire</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UBAID XCGPT STORE</title>
+  <meta name="description" content="Amazon of Digital Knowledge: AI-powered notes, eBooks, JKBOSE courses. Instant online delivery." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --royal-blue: #007bff;
+      --black: #111;
+      --white: #f8f9fa;
+      --gold: #FFD700;
+      --font-sans: 'Poppins', 'Inter', sans-serif;
+    }
+    body {
+      font-family: var(--font-sans);
+      margin: 0;
+      background: var(--white);
+      color: var(--black);
+      scroll-behavior: smooth;
+    }
+    header {
+      background: var(--royal-blue);
+      color: var(--white);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .logo {
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: var(--gold);
+    }
+    nav a {
+      color: var(--white);
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+    .product-card {
+      background: var(--white);
+      border: 1px solid var(--royal-blue);
+      border-radius: 1rem;
+      box-shadow: 0 2px 8px #007bff15;
+      padding: 1.5rem;
+      text-align: center;
+      transition: box-shadow 0.3s ease;
+    }
+    .product-card:hover {
+      box-shadow: 0 6px 15px #007bff40;
+    }
+    .buy-btn {
+      background: var(--gold);
+      color: var(--black);
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 0.5rem;
+      font-size: 1.1rem;
+      margin-top: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .buy-btn:hover {
+      background: var(--royal-blue);
+      color: var(--white);
+    }
+    #contact {
+      background: var(--royal-blue);
+      color: var(--white);
+      padding: 2rem;
+      max-width: 600px;
+      margin: 0 auto 4rem;
+      border-radius: 1rem;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+    }
+    #contact h2 {
+      margin-bottom: 1rem;
+      text-align: center;
+      font-weight: 700;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0 1.2rem;
+      border: none;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+    }
+    form button {
+      background: var(--gold);
+      color: var(--black);
+      padding: 0.85rem 1.75rem;
+      border: none;
+      border-radius: 0.5rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      font-size: 1.1rem;
+      width: 100%;
+    }
+    form button:hover {
+      background: var(--white);
+      color: var(--royal-blue);
+    }
+    .social-icons {
+      margin-top: 1rem;
+      text-align: center;
+    }
+    .social-icons a {
+      display: inline-block;
+      margin: 0 12px;
+      color: var(--gold);
+      font-size: 1.8rem;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .social-icons a:hover {
+      color: var(--white);
+    }
+    footer {
+      text-align: center;
+      background: var(--black);
+      color: var(--gold);
+      padding: 1rem;
+      font-weight: 700;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>🌍 UbaidXCGPT Empire</h1>
-    <p>Luxury • Billion Dillion • Global</p>
+    <div class="logo">UBAID ⚡ AI XCGPT STORE</div>
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
-  
-  <section class="hero">
-    <h2>Welcome to the Future of Digital Empire</h2>
-    <p>AI Products | Digital Notes | Automation | Global Business</p>
-    <a href="#" class="btn">🚀 Buy Now</a>
-  </section>
-  
+  <main>
+    <section id="products" aria-label="Product Listings">
+      <div class="products">
+        <article class="product-card" tabindex="0">
+          <h2>AI Notes & PDFs</h2>
+          <p>Step-by-step Artificial Intelligence guides for learners.</p>
+          <button class="buy-btn" onclick="window.location.href='upi://pay?pa=9596131580@fam'">Buy Now</button>
+        </article>
+        <article class="product-card" tabindex="0">
+          <h2>Facial Harmony Guide</h2>
+          <p>Scientific self-improvement PDF, instant download.</p>
+          <button class="buy-btn" onclick="window.location.href='upi://pay?pa=9596131580@fam'">Buy Now</button>
+        </article>
+        <article class="product-card" tabindex="0">
+          <h2>JKBOSE Digital Notes</h2>
+          <p>Class 9 & 10 academic notes (Science, SST, English, Math).</p>
+          <button class="buy-btn" onclick="window.location.href='upi://pay?pa=9596131580@fam'">Buy Now</button>
+        </article>
+        <article class="product-card" tabindex="0">
+          <h2>Entrepreneurship eBooks</h2>
+          <p>Unlock a millionaire mindset, start building your business.</p>
+          <button class="buy-btn" onclick="window.location.href='upi://pay?pa=9596131580@fam'">Buy Now</button>
+        </article>
+        <article class="product-card" tabindex="0">
+          <h2>Exclusive Premium Courses</h2>
+          <p>Coming soon - advanced courses for entrepreneurs.</p>
+          <button class="buy-btn" disabled>Coming Soon</button>
+        </article>
+      </div>
+    </section>
+    <section id="contact" aria-label="Contact Form">
+      <h2>Contact Us</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="_replyto" placeholder="Your Email" required />
+        <input type="text" name="subject" placeholder="Subject" />
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="social-icons" role="region" aria-label="Social Media Links">
+        <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener" aria-label="Instagram">📸</a>
+        <a href="https://youtube.com/yourchannel" target="_blank" rel="noopener" aria-label="YouTube">▶️</a>
+      </div>
+    </section>
+  </main>
   <footer>
-    <p>© 2025 UbaidXCGPT Empire | Contact: ubaidrashid756@gmail.com</p>
+    UBAID XCGPT STORE © 2025 | Powered by AI | Founder: Ubaid Rashid (Kashmir, India)
   </footer>
 </body>
 </html>
